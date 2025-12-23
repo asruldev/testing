@@ -1,0 +1,13 @@
+# Deployment config (berisi informasi sensitif)
+deploy.conf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+

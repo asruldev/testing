@@ -1,0 +1,15 @@
+# Konfigurasi Deployment ke cPanel
+# Copy file ini ke deploy.conf dan isi dengan informasi cPanel Anda
+
+# Hostname cPanel (biasanya: cpanel.yourdomain.com atau IP server)
+CPANEL_HOST="your-cpanel-host.com"
+
+# Username cPanel Anda
+CPANEL_USER="your_username"
+
+# Path ke public_html di server (biasanya: /home/username/public_html atau ~/public_html)
+REMOTE_PATH="~/public_html"
+
+# Port SSH (opsional, default: 22)
+# SSH_PORT="2222"
+
